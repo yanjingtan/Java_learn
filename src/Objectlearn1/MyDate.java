@@ -9,9 +9,9 @@ package Objectlearn1;
 5. 代码实现，效果如图所示：
 * */
 public class MyDate {
-    int year;
-    int month;
-    int day;
+    private int year;
+    private int month;
+    private int day;
     public boolean isBi(){
         //四年一闰；百年不闰，四百年再闰
         return (year%400==0)||(year%4==0&&year%100!=0);

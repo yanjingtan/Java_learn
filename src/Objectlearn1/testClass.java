@@ -9,10 +9,10 @@ public class testClass {
 
 
 
-       /* MyDate myDate=new MyDate(1900,1,1);
+
+        MyDate myDate=new MyDate(1900,1,1);
         myDate.showDate();
-        System.out.println(myDate.year+" "+myDate.isBi());*/
-        ;
+        System.out.println(myDate.getYear()+" "+myDate.isBi());
 
 
         /*

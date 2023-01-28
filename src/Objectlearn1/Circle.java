@@ -29,7 +29,7 @@ default：即不加任何访问修饰符，通常称为“默认访问模式“�
  */
 
 public class Circle {
-    int r;
+    private int r;
     public Circle() {
         Scanner cin = new Scanner(System.in);
         r = cin.nextInt();
