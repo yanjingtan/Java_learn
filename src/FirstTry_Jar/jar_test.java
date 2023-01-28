@@ -1,4 +1,4 @@
-package jar;
+package FirstTry_Jar;
 public class jar_test {
     public static void main(String[] arg){
 
