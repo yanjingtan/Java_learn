@@ -8,14 +8,19 @@ public class testClass {
     public static void main(String[] args){
 
         System.out.println("testClass");
-        testClass t=new testClass();
+        Card card=new Card("red",13);
+        card.showCard();
+        //testClass t=new testClass();
+
+
+
+
+        /*
 
         Cat cat1=new Cat();
         Cat cat2=new Cat(2,'s');
         System.out.println("isCatSame "+t.TestCatSame(cat1,cat2));
 
-
-        /*
 
         Circle circle=new Circle();
         System.out.println("Area: "+circle.showArea());

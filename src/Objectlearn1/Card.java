@@ -10,5 +10,29 @@ package Objectlearn1;
 
  */
 public class Card {
+    private String color;
+    private int value;
+    public void showCard(){
+        System.out.println("Card Color:"+getColor());
+        System.out.println("Card Value:"+getValue());
+    }
+    public Card(String c, int v){
+        setColor(c);
+        setValue(v);
+    }
+    public int getValue() {
+        return value;
+    }
 
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
 }
