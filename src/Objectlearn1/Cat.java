@@ -1,4 +1,7 @@
 package Objectlearn1;
+
+import java.util.Scanner;
+
 /*
 定义一个猫 Cat类。
 
@@ -10,4 +13,35 @@ package Objectlearn1;
 
  */
 public class Cat {
+    private int age;
+    char color;
+    public Cat(int a,char c){
+        setAge(a);
+        setColor(c);
+    }
+    public Cat(){
+        Scanner cin=new Scanner(System.in);
+        System.out.println("Age:");
+        setAge(cin.nextInt());
+        System.out.println("Color:");
+        //char c=(char)System.in.read();
+        setColor(cin.next().charAt(0));
+    }
+
+    public char getColor() {
+        return color;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setColor(char color) {
+        this.color = color;
+    }
 }
+
