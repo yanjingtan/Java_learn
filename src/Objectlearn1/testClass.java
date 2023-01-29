@@ -1,5 +1,9 @@
 package Objectlearn1;
 
+import Objectlearn2.*;
+import Objectlearn2.Team.Coder;
+import Objectlearn2.Team.Manager;
+
 
 import java.text.SimpleDateFormat;
 
@@ -16,15 +20,17 @@ public class testClass {
         System.out.println("testClass");
 
         //testClass t=new testClass();
-        //定义测试类，使用满参构造方法，创建三个 Book对象，判断价格最贵的图书，并输出图书信息
-        //SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
+        Coder coder=new Coder("a",120,1233);
+        Manager manager=new Manager("b",122,2333);
+        coder.showSalary();
+        manager.showSalary();
 
+        /*
         Book b1=new Book(23,"hello1","XX-XXXX",10,"2022-01-01");
         Book b2=new Book(23,"hello2","XX-XXXX",2,"2022-01-01");
         Book b3=new Book(23,"hello world","XX-XXXX",0,"2022-01-01");
         b3.showBook();
-
-        /*
+        //SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
 
 
         Card card=new Card("red",13);
