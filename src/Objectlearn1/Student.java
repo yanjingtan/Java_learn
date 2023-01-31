@@ -6,5 +6,36 @@ package Objectlearn1;
 2. 用冒泡排序按照学生成绩进行排序，并打印。
  */
 public class Student {
+    private int  number;
+    private int  grade;
+    private int  point;
+    public Student(int number,int grade,int point){
+        setNumber(number);
+        setGrade(grade);
+        setPoint(point);
+    }
 
+    public int getNumber() {
+        return number;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public int getPoint() {
+        return point;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
+    public void setPoint(int point) {
+        this.point = point;
+    }
 }
