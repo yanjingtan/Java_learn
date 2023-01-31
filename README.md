@@ -1,2 +1,2 @@
 # Java_learn
-Learning java project
+Learning java
