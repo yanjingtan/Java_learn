@@ -1,4 +1,4 @@
-import languagebasic.*;
+import LanguageBasic.*;
 public class MainTest {
     public static void main(String[] arg){
         /*

@@ -1,4 +1,4 @@
-package languagebasic;
+package LanguageBasic;
 
 public class try_var {
     int number1;
