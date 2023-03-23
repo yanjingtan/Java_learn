@@ -9,7 +9,8 @@ public class MainTest {
          */
         try_var tryVar1 =new try_var();
         tryVar1.vartest();
-        //var1.main(arg);
+       // tryVar1.main(arg);
         tryVar1.var_init();
+
     }
 }

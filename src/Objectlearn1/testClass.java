@@ -1,15 +1,9 @@
 package Objectlearn1;
 
-import Objectlearn2.*;
-import Objectlearn2.Team.Coder;
-import Objectlearn2.Team.Manager;
-
-
-import java.text.SimpleDateFormat;
 
 public class testClass {
 
-    public boolean TestCatSame(Cat a,Cat b){
+    public boolean TestCatSame(Cat a, Cat b){
         return a.getAge()== b.getAge()&&a.getColor()== b.getColor();
     }
 

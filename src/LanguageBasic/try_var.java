@@ -33,7 +33,6 @@ public class try_var {
     }
 
     public static void main(String[] args) {
-
         int number1;
         number1 = 10;
         int number2;

@@ -1,7 +1,5 @@
 package Objectlearn1;
 
-import java.util.Date;
-
 /*
 七，定义一个图书 Book类。
 
@@ -26,7 +24,7 @@ public class Book {
     }
     public void showBook(){
         System.out.println("Book Data:");
-        System.out.println(number+" "+name+" "+code+" "+price+" "+date);
+        System.out.println(+number+" "+name+" "+code+" "+price+" "+date);
     }
 
     public int getNumber() {

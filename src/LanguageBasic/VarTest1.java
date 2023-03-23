@@ -7,6 +7,7 @@ public class VarTest1 {
 
 
     public static void main(String[] args) {
+
         byte b1=10;
         byte b2=20;
         short s1=1000,s2=2000;

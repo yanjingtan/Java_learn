@@ -4,11 +4,13 @@ public class Worker {
     protected String name;
     protected int number;
     protected double salary;
+
     public Worker(String name,int number,double salary){
         setName(name);
         setNumber(number);
         setSalary(salary);
     }
+
     public void intro(){
         System.out.println("Name:"+name+" "+"Number:"+number);
     }
